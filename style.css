@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 2rem;
+}
+
+.container p, .container table {
+    width: 25%;
+    padding: 2rem;
+}
+
+.container p {
+    background-color: aliceblue;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    text-align: right;
+    font-size: 32px;
+    letter-spacing: 7px;
+}
+
+.container table {
+    width: 25%;
+    height: 50%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+tr td {
+    background-color: #070707;
+    padding: 0.2em;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5px;
+    font-size:28px;
+}
+
+td:hover {
+    background-color: #EFD09E;
+    color: #070707;
+}
+
+table td:last-child:hover {
+    background-color: #EFD09E;
+    color: #070707;
+}
+
+td:last-child, .botaocolor {
+    background-color: #1b111b;
+}
+
